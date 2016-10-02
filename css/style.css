@@ -1,17 +1,29 @@
 body{
-	background-color: #123E5B;
+	background-image: url("http://wallpapercave.com/wp/zkGYoes.jpg");
+	background-size: cover; 
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	font-family: Lato;
+}
+
+.quote-box{
+	margin-top: 10%;
+	opacity: 0.9;
+	padding: 50px;
+	background-color: #000;
 }
 
 blockquote{
 	color: #fff;
-	margin-top: 10%;
-	border-radius: 5px;
-	border: 10px solid #f45942;
-	padding: 50px;
-	text-shadow: 0 4px 3px rgba(0,0,0,0.4);
-	letter-spacing: 2px;
+	letter-spacing: 2px;		
+	font-size: 30px;
 }
 
 .author{
 	color: #fff;
+}
+
+button{
+	margin: 30px 20px;
 }

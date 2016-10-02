@@ -6,19 +6,20 @@
 	<title>Random Quote Machine</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://use.fontawesome.com/07280abde1.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1">
+			<div class="col-xs-10 col-xs-offset-1 quote-box">
 				<blockquote class="text-center center-block">
-					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-					<footer class="author">Lorem</footer>
-					<button class="new-quote">
-						<p>New Quote</p>
+					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i class="fa fa-quote-right"></i></p>
+					<footer class="author text-right">Lorem</footer>
+					<button type="button" id="new-quote" class="btn btn-primary btn-lg">
+						<i class="fa fa-random fa-2x"></i>
 					</button>
-					<button class="tweet">
-						<p>Tweet This!</p>
+					<button type="button" id="tweet" class="btn btn-primary btn-lg">
+						<i class="fa fa-twitter fa-2x"></i>
 					</button>
 				</blockquote>
 			</div>
