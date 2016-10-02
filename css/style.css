@@ -1,0 +1,18 @@
+body{
+	background-color: #123E5B;
+}
+
+blockquote{
+	color: #fff;
+	margin-top: 10%;
+	border-radius: 5px;
+	border: 10px solid #f45942;
+	padding: 50px;
+	text-shadow: 0 4px 3px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+}
+
+.author{
+	color: #fff;
+	
+}
