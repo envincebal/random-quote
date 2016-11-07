@@ -29,3 +29,11 @@ button{
 	margin: 30px 20px;
 	float: right;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 660px){
+	blockquote{
+		font-size: 20px;
+	}
+}

@@ -39,8 +39,8 @@ var quoteButton = document.getElementById("new-quote");
 getQuote();
 
 function getQuote() {
-	var newQuote = document.getElementById("quote");
-	var author = document.getElementById("author");
+  var newQuote = document.getElementById("quote");
+  var author = document.getElementById("author");
   var randomQuote = Math.floor(Math.random() * quotesBank.length);
 
   newQuote.textContent = quotesBank[randomQuote].quote;
