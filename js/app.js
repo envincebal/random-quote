@@ -11,6 +11,9 @@ var quotesBank = [{
     "quote": "It's a TRAP!!!",
     "character": "Admiral Ackbar"
 }, {
+    "quote": "You will remove these restraints and leave this cell with the door open.",
+    "character": "Rey"
+}, {
     "quote": "Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1!",
     "character": "C-3PO"
 }, {
@@ -19,6 +22,9 @@ var quotesBank = [{
 }, {
     "quote": "I find your lack of faith disturbing.",
     "character": "Darth Vader"
+}, {
+    "quote": "Nothing will stand in our way. I will finish what you started.",
+    "character": "Kylo Ren"
 }, {
     "quote": "Why, you stuck up, half-witted, scruffy-looking Nerf herder!",
     "character": "Princess Leia"
