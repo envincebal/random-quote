@@ -4,20 +4,26 @@ body{
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	background-position: center top;
-	font-family: Lato;	
+	font-family: "Lato";	
 	color: #fff;
 }
 
+.title{
+	font-weight: 600;
+}
+
 .quote-box{
-	margin-top: 3%;
-	opacity: 0.8;
+	margin-top: 6%;
 	padding: 50px;
+	opacity: 0.8;
 	background-color: #000;
+	border-radius: 10px;
 }
 
 blockquote{
 	letter-spacing: 2px;		
 	font-size: 30px;
+	font-weight: 300;
 }
 
 #author{
